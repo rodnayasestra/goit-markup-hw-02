@@ -1,0 +1,28 @@
+
+ul {
+  list-style: none;
+}
+/* style logo */
+.logo {
+  color: #000000;
+}
+.web {
+  color: #2196f3;
+}
+/* color for site-nav and contacts */
+.header-nav .link {
+  color: #2196f3;
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: #212121;
+}
+
+/* наши преимущества (заголовки) */
+.our-benefits{
+    color: #212121;
+}
+/* заголовки секций 2-3 */
+.section-title{
+    color: #212121;
+}
