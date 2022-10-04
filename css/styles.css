@@ -1,4 +1,14 @@
+:root {
+  --primary-h-color: #212121;
+  --primary-p-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color:#ffffff;
+}
 
+/* стилизация ссылок и т.п. */
+a {
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
@@ -7,22 +17,37 @@ ul {
   color: #000000;
 }
 .web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* color for site-nav and contacts */
 .header-nav .link {
-  color: #2196f3;
+  color: var(--primary-h-color);
 }
 .header-nav .link:hover,
 .header-nav .link:focus {
-  color: #212121;
+  color: var(--accent-color);
+}
+
+/* hero and buttons(все кнопки сайта) */
+
+.button-hero{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color)
 }
 
 /* наши преимущества (заголовки) */
-.our-benefits{
-    color: #212121;
+.our-benefits {
+  color: var(--primary-h-color);
 }
-/* заголовки секций 2-3 */
-.section-title{
-    color: #212121;
+/* заголовки секций 2-3 (Чем мы занимаемся, наша команда) */
+.section-title {
+  color: var(--primary-h-color);
+}
+
+/* футер */
+.adress-footer {
+  color: #ffffff;
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
 }
