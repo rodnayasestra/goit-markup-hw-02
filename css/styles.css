@@ -46,7 +46,7 @@ body {
   color: var(--accent-color);
 }
 .header-nav .link-contacts {
-  color: #757575;
+  color: var(--primary-p-color);
 }
 .header-nav .link-contacts:hover,
 .header-nav .link-contacts:focus {
@@ -135,7 +135,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--primary-h-color);
 }
 /* содержимое секции 3 */
 .section {
@@ -160,7 +159,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  background-color: #f5f4fa;
+  background-color:var(--secondary-bg-color);
   color: var(--primary-h-color);
 }
 .filter-button:hover,
