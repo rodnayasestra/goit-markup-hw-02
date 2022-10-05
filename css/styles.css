@@ -2,7 +2,10 @@
   --primary-h-color: #212121;
   --primary-p-color: #757575;
   --accent-color: #2196f3;
-  --primary-white-color:#ffffff;
+  --primary-white-color: #ffffff;
+  --footer-and-hero-color: #2f303a;
+  --header-color: #ececec;
+  --primary-bg-color: #f5f5f5;
 }
 
 /* стилизация ссылок и т.п. */
@@ -12,11 +15,27 @@ a {
 ul {
   list-style: none;
 }
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+/* header */
 /* style logo */
+.header {
+  background-color: var(--header-color);
+}
 .logo {
   color: #000000;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
 }
-.web {
+.logo .web {
   color: var(--accent-color);
 }
 /* color for site-nav and contacts */
@@ -27,12 +46,32 @@ ul {
 .header-nav .link:focus {
   color: var(--accent-color);
 }
+.header-nav .link-contacts {
+  color: #757575;
+}
+.header-nav .link-contacts:hover,
+.header-nav .link-contacts:focus {
+  color: var(--accent-color);
+}
 
-/* hero and buttons(все кнопки сайта) */
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+/* text */
+.header-nav .link,
+.link-contacts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+/* hero and buttons*/
 
-.button-hero{
+.button-hero {
   background-color: var(--accent-color);
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
 }
 
 /* наши преимущества (заголовки) */
@@ -45,9 +84,41 @@ ul {
 }
 
 /* футер */
+.footer {
+  background-color: var(--footer-and-hero-color);
+}
+.footer .logo {
+  color: var(--primary-white-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
 .adress-footer {
-  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--primary-white-color);
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
 .contacts-footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
