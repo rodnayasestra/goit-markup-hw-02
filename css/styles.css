@@ -21,6 +21,7 @@ body {
   font-style: normal;
   color: var(--primary-h-color);
   letter-spacing: 0.03em;
+  background-color: #F5F5F5;
 }
 /* header */
 /* style logo */
