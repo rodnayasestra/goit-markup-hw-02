@@ -80,7 +80,6 @@ body {
 
 .adress-footer {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--primary-white-color);
@@ -146,7 +145,6 @@ body {
   line-height: 1.18;
 }
 .members-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: var(--primary-p-color);
@@ -181,7 +179,6 @@ body {
   color: var(--primary-h-color);
 }
 .projects-portfolio-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-p-color);
