@@ -19,6 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: var(--primary-h-color);
+  letter-spacing: 0.03em;
 }
 /* header */
 /* style logo */
