@@ -60,7 +60,6 @@ body {
 /* text */
 .header-nav .link,
 .link-contacts {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -82,7 +81,6 @@ body {
 }
 
 .adress-footer {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -90,7 +88,6 @@ body {
   color: var(--primary-white-color);
 }
 .contacts-footer {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -183,7 +180,6 @@ body {
   color: var(--primary-white-color);
 }
 .projects-portfolio {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
