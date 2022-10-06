@@ -20,7 +20,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-h-color);
   letter-spacing: 0.03em;
-  background-color: var(--primary-white-color)
+  background-color: var(--primary-white-color);
 }
 /* header */
 /* style logo */
@@ -69,8 +69,8 @@ body {
 .footer {
   background-color: var(--footer-and-hero-color);
 }
-.footer .studio{
-  color:var(--primary-white-color);
+.footer .studio {
+  color: var(--primary-white-color);
 }
 
 .adress-footer {
