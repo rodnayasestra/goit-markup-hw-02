@@ -4,8 +4,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --footer-and-hero-color: #2f303a;
-  --header-color: #ececec;
-  --primary-bg-color: #f5f5f5;
+  --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
 }
 
@@ -24,9 +23,6 @@ body {
 }
 /* header */
 /* style logo */
-.header {
-  background-color: var(--primary-white-color);
-}
 .logo {
   color: var(--accent-color);
   font-family: 'Raleway';
